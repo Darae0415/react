@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(240, 240, 240);
+        }
+        #container {
+            width: 500px;
+            border: 1px solid gray;
+            margin: 50px auto;
+            position: relative;
+            background-color: white;
+        }
+        #container p {
+            margin: 5px 10px;
+            position: relative;
+            left: 0; /* left 속성 삭제 */
+        }
+        #container p input {
+            padding: 5px;
+            border-radius: 5px;
+        }
+        button {
+            width: 140px;
+            height: 140px;
+            position: absolute;
+            right: 50px;
+            bottom: 30px;
+            background-color: #007bff;
+            color: white;
+            font-size: 32px;
+            border-radius: 5px;
+            border: none;
+        }
+        #memo-container {
+            width: 500px;
+            border: 1px solid gray;
+            margin: 0 auto;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="textInfo">
+            <p>이름 : <input type="text" placeholder="Username"/></p>
+            <br/>
+            <p>나이 : <input type="password" placeholder="Password"/></p>
+            <br/>
+            <p>직업 : <input type="text" placeholder="Username"/></p>
+            <br/>
+        </div>
+        <button>추가</button>
+    </div>
+    <div id="memo-container">
+        <ul id="memo-list"></ul>
+    </div>
+</body>
+</html>
