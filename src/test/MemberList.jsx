@@ -1,4 +1,6 @@
 import '../test/MemberList.css';
+// import '../test/MemberList2.css';
+
 import { useState } from 'react';
 
 export function MemberList(){
