@@ -29,7 +29,6 @@ const styles={
     commentText:{
         color:'gray',
         fontSize:16,
-
     }
 }
 
