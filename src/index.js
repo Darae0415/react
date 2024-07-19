@@ -1,13 +1,16 @@
 //파일경로 src/index.js
 import ReactDOM from 'react-dom/client';
-import {App} from './step11/App'
+import React from 'react';
+import {App} from './step14/App'
+import LandingPage from './step14/LandingPage';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-    <App/>
-  </>
+  <React.StrictMode>
+    <LandingPage/>
+  </React.StrictMode>
 );
 
 
