@@ -11,7 +11,7 @@ export function SignUp(){
         setGender(e.target.value);
     }
     const handleSubmit = (e)=> {
-        e.preventDefault();
+        e.preventDefault();  //클릭해도 리로드가(새창) 되지않겠금 설정
         alert(`이름: ${name} \n 성별: ${gender}`);
         
     }

@@ -5,7 +5,7 @@ export function FormTest4(props){
     const [numGuest, setNumGuest] = useState(0);
 
     const handleSubmit = (e) =>{
-        e.preventDefault();
+        e.preventDefault(); //클릭해도 리로드가(새창) 되지않겠금 설정
         alert(`아침식사 여부 : ${haveBreakfast}, 방문객 수 : ${numGuest}`);
     } 
 

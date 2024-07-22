@@ -5,7 +5,7 @@ export function FormTest1(){
     setValue(event.target.value);
   }
   const handleSubmit = (event)=>{
-    event.preventDefault();
+    event.preventDefault();  //클릭해도 리로드가(새창) 되지않겠금 설정
     alert('입력값: '+value);
   }
   return (
