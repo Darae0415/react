@@ -37,7 +37,10 @@ export function RouterTest5(){
     </Router>
   );
 }
-//Router는 이 안에 모든 페이지가 어떻게 연결되어 있는지 알려주는 역할
+//Router는 이 안에 모든 페이지(현재는 nav)가 어떻게 연결되어 있는지 알려주는 역할
 //Routes는 여러 페이지(Route)를 정리해주고 어떤 역할을 하는지 세팅하는 역할
 //Route는 어떤 주소가 어떤 페이지를 보여주는지 정의하는 역할
-//Router는 집의 전체 지도, Routes는 방의 목록, Route는 개별방이라 생각하면 됨
+
+//Router는 집의 전체 지도, 
+//Routes는 방의 목록, 
+//Route는 개별방이라 생각하면 됨
