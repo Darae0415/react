@@ -9,7 +9,8 @@ export function About2() {
             {/* 위에 링크 누르면details 로 설정한 렌더링된 컴포넌트를 클릭하는 개념 */}
         </nav>
         <Outlet/> {/*Outlet은 부모라우터(about2)에서 하위 라우터(aboutDetails) 렌더링된 컴포넌트
-        (AboutDetails.jsx)들을 표현*/}
+        (AboutDetails.jsx)를 표현
+        ※routertest5로 가면 about2밑에 aboutdetails 설정되어 있음※*/}
         </>
     
 );
