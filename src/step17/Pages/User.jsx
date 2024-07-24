@@ -10,7 +10,8 @@ export function User() {
     const { id } = useParams(); // useParams 훅을 사용하여 URL에서 id 매개변수 추출
     const user = users.find(item => item.id === Number(id)); 
     // link to에 item번호와 적용된id에 해당하는 사용자 찾기 (router5에 가면 1로 설정되있음.)
-    // .find 배열에서 특정 조건을 만족하는 첫 번째 요소를 찾는데 사용
+    // .find 배열에서 특정 조건을 만족하는 요소를 찾는데 사용
+    //  item.id(1)과 users배열에 id를 비교(===)
     return (
         <div>
             {user ? ( // 사용자 정보가 있는 경우
